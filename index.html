@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <title>Nike Product Card</title>
+    </head>
+    <body>
+    <div class="wrap">
+        <header class="header">
+            <div class="header__logo-img"><img src="images/logo.png" alt="nike-logo"></div>
+            <nav>
+                <div class="header__main-menu header__main-menu--hover"><img src="images/btn-menu.png" alt="menu"></div>
+                <ul class="header__ul-for-menu">
+                    <li class="header__menu header__menu--hover">LIFESTYLE</li>
+                    <li class="header__menu header__menu--hover">RUNNING</li>
+                    <li class="header__menu header__menu--hover">FOOTBALL</li>
+                    <li class="header__menu header__menu--hover">SKATEBOARDING</li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </header>
+        <main>
+            <div class="product-card">
+                <div class="product-card__close-btn"></div>
+                <div class="product-card__slider--left">
+                    <img src="images/product1.png" alt="nike">
+                    <div class="product__slider-control">
+                        <div class="product__slider-small-img"><img src="images/product1_small_01.png" alt="nike"></div>
+                        <div class="product__slider-small-img"><img src="images/product1_small_02.png" alt="nike"></div>
+                        <div class="product__slider-small-img"><img src="images/product1_small_03.png" alt="nike"></div>
+                    </div>
+                </div>
+                <div class="product-info--right">
+                    <div class="product-info__label-new">NEW</div>
+                    <div class="product-info__slogan">THE <span class="product-info__slogan--blue">RUNNING</span> HAS JUST BEGUN</div>
+                    <div class="product-info__name">Huarache</div>
+                    <div class="product-info__ratio"><div class="product-info__ratio-real" style="width: 50%"></div></div>
+                    <div class="product-info__price">$ 200</div>
+                    <form class="form-to-buy">
+                        <div class="form-to-buy__size-label">Size</div>
+                        <div class="form-to-buy__size-select">
+                            <input type="radio" name="size" value="7" id="size-7" class="form-to-buy__size form-to-buy__size--active">
+                            <label for="size-7">7</label>
+                            <input type="radio" name="size" value="8" id="size-8" class="form-to-buy__size form-to-buy__size--active">
+                            <label for="size-8">8</label>
+                            <input type="radio" name="size" value="9" id="size-9" class="form-to-buy__size form-to-buy__size--active">
+                            <label for="size-9">9</label>
+                            <input type="radio" name="size" value="10" id="size-10" class="form-to-buy__size form-to-buy__size--active">
+                            <label for="size-10">10</label>
+                            <input type="radio" name="size" value="11" id="size-11" class="form-to-buy__size form-to-buy__size--active">
+                            <label for="size-11">11</label>
+                        </div>
+                        <input type="submit" value="ADD TO CART" class="form-to-buy__submit-btn btn-active">
+                        <button class="form-to-buy__wishlist-btn btn-active">WISHLIST</button>
+                    </form>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    </body>
+</html>
